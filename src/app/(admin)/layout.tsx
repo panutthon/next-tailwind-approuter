@@ -8,10 +8,7 @@ export default function AdminLayout({
     return (
       <html lang="en">
         <body>
-          <nav>Header Admin</nav>
-          <section>Navbar Admin</section>
           {children}
-          <footer>Footer Root</footer>
         </body>
       </html>
     );

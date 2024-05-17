@@ -1,6 +1,8 @@
 //front layout
 
+import Footer from "../components/front/Footer";
 import Navbar from "../components/front/Navbar";
+import PrelineScript from "../components/PrelineScript";
 
 export default function FrontLayout({
   children,
@@ -12,8 +14,9 @@ export default function FrontLayout({
       <body>
         <Navbar />
         {children}
-        <footer>Footer Root</footer>
+        <Footer />
       </body>
+      <PrelineScript />
     </html>
   );
 }
