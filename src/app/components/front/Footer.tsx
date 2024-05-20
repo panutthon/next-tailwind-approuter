@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Footer() {
@@ -7,13 +8,13 @@ export default function Footer() {
         {/* Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
           <div className="col-span-full lg:col-span-1">
-            <a
+            <Link
               className="flex-none text-xl font-semibold text-white"
-              href="#"
+              href="/home"
               aria-label="Brand"
             >
-              Brand
-            </a>
+              WorkShop
+            </Link>
           </div>
           {/* End Col */}
           <div className="col-span-1">

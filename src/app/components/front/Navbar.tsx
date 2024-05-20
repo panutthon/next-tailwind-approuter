@@ -1,4 +1,7 @@
+'use client';
+
 import React from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -8,13 +11,13 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex items-center justify-between">
-          <a
+          <Link
             className="flex-none text-xl font-semibold dark:text-white"
-            href="#"
+            href="/home"
             aria-label="Brand"
           >
-            Brand
-          </a>
+            WorkShop
+          </Link>
           <div className="sm:hidden">
             <button
               type="button"
@@ -52,37 +55,37 @@ export default function Navbar() {
           className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
         >
           <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
-            <a
+            <Link
               className="font-medium text-blue-600 sm:py-6 dark:text-blue-500"
-              href="#"
+              href="/home"
               aria-current="page"
             >
-              Landing
-            </a>
-            <a
+              Home
+            </Link>
+            <Link
               className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
-              href="#"
+              href="/about"
             >
-              Account
-            </a>
-            <a
+              About
+            </Link>
+            <Link
               className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
-              href="#"
-            >
-              Work
-            </a>
-            <a
-              className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
-              href="#"
+              href="/blog"
             >
               Blog
-            </a>
+            </Link>
+            <Link
+              className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
+              href="/contact"
+            >
+              Contact
+            </Link>
             <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
               <button
                 type="button"
                 className="flex items-center w-full text-gray-500 hover:text-gray-400 font-medium dark:text-neutral-400 dark:hover:text-neutral-500 "
               >
-                Dropdown
+                More
                 <svg
                   className="ms-2 size-2.5 text-gray-500 dark:text-neutral-500"
                   width={16}
