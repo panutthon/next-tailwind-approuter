@@ -24,7 +24,15 @@ export const metadata: Metadata = {
     "Next.js",
   ],
   authors: [{ name: "panutthon", url: "https://github.com/panutthon" }],
+
+
+  //favicon.ico
+  icons: "/favicon.ico",
+
+  robots: "index, follow",
 };
+
+  
 
 export default function RootLayout({
   children,
