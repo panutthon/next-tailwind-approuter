@@ -131,6 +131,7 @@ export default function Footer() {
             <a
               className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
               href="#"
+              title="Social Media"
             >
               <svg
                 className="flex-shrink-0 size-4"
@@ -146,6 +147,7 @@ export default function Footer() {
             <a
               className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
               href="#"
+              title="Social Media"
             >
               <svg
                 className="flex-shrink-0 size-4"
@@ -161,6 +163,7 @@ export default function Footer() {
             <a
               className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
               href="#"
+              title="Social Media"
             >
               <svg
                 className="flex-shrink-0 size-4"
@@ -176,6 +179,7 @@ export default function Footer() {
             <a
               className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
               href="#"
+              title="Social Media"
             >
               <svg
                 className="flex-shrink-0 size-4"
@@ -191,6 +195,7 @@ export default function Footer() {
             <a
               className="size-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
               href="#"
+              title="Social Media"
             >
               <svg
                 className="flex-shrink-0 size-4"
