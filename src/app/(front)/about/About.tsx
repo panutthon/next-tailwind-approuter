@@ -19,7 +19,7 @@ export default function AboutPage({}: Props) {
           <div className="mt-5 max-w-3xl text-center mx-auto">
             <p className="text-lg text-gray-600 dark:text-neutral-400">
               Preline is a large open-source project, crafted with Tailwind CSS
-              framework by Hmlstream.
+              framework by Hmlstream. We are always open to your feedback and we are happy to help you with any questions you might have.
             </p>
           </div>
         </div>
